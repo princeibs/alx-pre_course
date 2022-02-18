@@ -1,12 +1,11 @@
-	PSEUDOCODE OF SUM OF SQUARES
-1. Create a function named sum_of_squares that takes in a list of numbers.
-2. Create a variable n equals to the length of the list.
-3. Create a variable total and set it equal to 0.
-4. Set up a while loop (condition: n is greater than 0)
-	i. Get the number at index n in the list
-	ii. Multiply the number by itself 
-	iii. Add the multiplied number to total
-	iv. Decrease n by 1
-6. Return total
-
-
+0. BEGIN
+1. SET number = INPUT(n1, n2, n3, ...)
+2. SET n = length of numbers
+3. SET total = 0
+4. WHILE (n > 0) 
+	i. SET current = value at index n of numbers
+	ii. SET square = current * current
+	iii. SET total = total + square
+	iv. Decrement n by 1
+5. OUTPUT total
+6. END

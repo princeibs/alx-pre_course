@@ -1,0 +1,20 @@
+AN ALGORITHM THAT READS A LIST OF NUMBERS AND RETURN THEM IN SORTED ORDER
+
+0. BEGIN 
+1. numbers = INPUT(n1, n2, n3, ...)
+2. SET i = 1, n = length of numbers
+3. WHILE (i < n - 1):
+	a. SET k = i
+	b. SET j = i + 1
+	c. WHILE (j < n):
+		i. IF (numbers[j] < numbers[k]) THEN 
+			A. SET k = j
+		ii. END IF 
+		iii. increment j by 1
+	d. END WHILE 
+	e. IF (k == i) THEN 
+		i. swap numbers[i] and numbers[k]
+	f. END IF 
+	g. increment i by 1
+4. END WHILE
+5. END

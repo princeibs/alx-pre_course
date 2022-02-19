@@ -1,0 +1,11 @@
+0. BEGIN
+1. SET number = INPUT(n1, n2, n3, ...)
+2. SET n = length of numbers
+3. SET total = 0
+4. WHILE (n > 0) 
+	i. SET current = value at index n of numbers
+	ii. SET square = current * current
+	iii. SET total = total + square
+	iv. Decrement n by 1
+5. OUTPUT total
+6. END
